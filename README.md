@@ -36,3 +36,7 @@ Upon that, run the ./llh/scripts/setup_fit.sh file. Make sure to pass the absolu
 ### Submitting the jobs
 
 Finally, log into the cluster, and run the submit.sh file in the llh directory. Make sure to pass the absolute path of the ice models directory as an argument.
+
+
+## Other notes 
+Please make sure to have the dat at the same level of the other directores (i.e llh, ice, ...)
