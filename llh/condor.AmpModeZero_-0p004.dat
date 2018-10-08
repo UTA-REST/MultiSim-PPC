@@ -1,0 +1,16 @@
+Universe        = vanilla
+Notification    = never
+Executable      = run.sh
+
+Output          = /home/balatoum/root/out/second_AmpModeZero_-0p004.dat_$(Process)
+Error           = /home/balatoum/root/err/second_AmpModeZero_-0p004.dat_$(Process)
+Log             = /home/balatoum/root/log/second_AmpModeZero_-0p004.dat_$(Process)
+
+Arguments       = $(Process)  AmpModeZero_-0p004.dat 
+
+request_gpus    = 1
+request_memory  = 8GB
+
+requirements    = regexp("(gtx-8|gtx-27|gtx-33|gtx-40|rad-0)", Machine) != True
+
+queue 59
