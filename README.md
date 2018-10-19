@@ -23,13 +23,13 @@ In the llh directory, run the following.
 $ make
 ```
 
-##### Linking
+### Linking
 
 If on the cobalts, make the following SymLinks in the MultiSim-PPC/dat directory
 
        flasher -> /data/user/dima/I3/flashers/flasher
-  flasher-1LED -> /data/user/dima/I3/flashers/flasher-1LED
-           all -> /data/user/dima/I3/flashers/oux
+       flasher-1LED -> /data/user/dima/I3/flashers/flasher-1LED
+       all -> /data/user/dima/I3/flashers/oux
 
 Please note that you might need to source the src files in those directories. Please also note that a server admin might have moved the path to a library that is used by the make scripts.
 
